@@ -829,3 +829,291 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'author' cannot be nul
 2024-12-06T17:51:36.835+09:00  INFO 28048 --- [Todoprojcet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-12-06T17:51:36.835+09:00  INFO 28048 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-12-06T17:51:36.835+09:00  INFO 28048 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-06T18:05:26.375+09:00  INFO 28048 --- [Todoprojcet] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-06T18:05:26.493+09:00  INFO 28048 --- [Todoprojcet] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-06T18:05:26.496+09:00  INFO 28048 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-06T18:05:26.504+09:00  INFO 28048 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T18:05:28.622+09:00  INFO 22772 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Starting TodoprojcetApplication using Java 17.0.13 with PID 22772 (C:\Users\flashback\Desktop\스파르타\Todoprojcet\build\classes\java\main started by flashback in C:\Users\flashback\Desktop\스파르타\Todoprojcet)
+2024-12-06T18:05:28.623+09:00 DEBUG 22772 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-06T18:05:28.624+09:00  INFO 22772 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-06T18:05:28.984+09:00  INFO 22772 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-06T18:05:28.997+09:00  INFO 22772 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2024-12-06T18:05:29.287+09:00  INFO 22772 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T18:05:29.300+09:00  INFO 22772 --- [Todoprojcet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T18:05:29.301+09:00  INFO 22772 --- [Todoprojcet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-06T18:05:29.333+09:00  INFO 22772 --- [Todoprojcet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T18:05:29.334+09:00  INFO 22772 --- [Todoprojcet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 685 ms
+2024-12-06T18:05:29.617+09:00  INFO 22772 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T18:05:29.765+09:00  INFO 22772 --- [Todoprojcet] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29bbc391
+2024-12-06T18:05:29.767+09:00  INFO 22772 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T18:05:29.875+09:00  INFO 22772 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T18:05:29.879+09:00  INFO 22772 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Started TodoprojcetApplication in 1.542 seconds (process running for 1.889)
+2024-12-06T18:05:36.603+09:00  INFO 22772 --- [Todoprojcet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-06T18:05:36.603+09:00  INFO 22772 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-06T18:05:36.603+09:00  INFO 22772 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-06T18:20:09.898+09:00  INFO 22772 --- [Todoprojcet] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-06T18:20:09.990+09:00  INFO 22772 --- [Todoprojcet] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-06T18:20:09.992+09:00  INFO 22772 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-06T18:20:09.999+09:00  INFO 22772 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T18:20:11.829+09:00  INFO 2188 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Starting TodoprojcetApplication using Java 17.0.13 with PID 2188 (C:\Users\flashback\Desktop\스파르타\Todoprojcet\build\classes\java\main started by flashback in C:\Users\flashback\Desktop\스파르타\Todoprojcet)
+2024-12-06T18:20:11.831+09:00 DEBUG 2188 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-06T18:20:11.832+09:00  INFO 2188 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-06T18:20:12.193+09:00  INFO 2188 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-06T18:20:12.206+09:00  INFO 2188 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2024-12-06T18:20:12.474+09:00  INFO 2188 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T18:20:12.482+09:00  INFO 2188 --- [Todoprojcet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T18:20:12.482+09:00  INFO 2188 --- [Todoprojcet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-06T18:20:12.518+09:00  INFO 2188 --- [Todoprojcet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T18:20:12.518+09:00  INFO 2188 --- [Todoprojcet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 661 ms
+2024-12-06T18:20:12.773+09:00  INFO 2188 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T18:20:12.923+09:00  INFO 2188 --- [Todoprojcet] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6812c8cc
+2024-12-06T18:20:12.925+09:00  INFO 2188 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T18:20:13.020+09:00  INFO 2188 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T18:20:13.026+09:00  INFO 2188 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Started TodoprojcetApplication in 1.448 seconds (process running for 1.736)
+2024-12-06T18:20:20.115+09:00  INFO 2188 --- [Todoprojcet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-06T18:20:20.116+09:00  INFO 2188 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-06T18:20:20.116+09:00  INFO 2188 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-06T18:23:42.455+09:00  INFO 2188 --- [Todoprojcet] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-06T18:23:42.542+09:00  INFO 2188 --- [Todoprojcet] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-06T18:23:42.544+09:00  INFO 2188 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-06T18:23:42.550+09:00  INFO 2188 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T18:23:44.374+09:00  INFO 29744 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Starting TodoprojcetApplication using Java 17.0.13 with PID 29744 (C:\Users\flashback\Desktop\스파르타\Todoprojcet\build\classes\java\main started by flashback in C:\Users\flashback\Desktop\스파르타\Todoprojcet)
+2024-12-06T18:23:44.375+09:00 DEBUG 29744 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-06T18:23:44.375+09:00  INFO 29744 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-06T18:23:44.736+09:00  INFO 29744 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-06T18:23:44.749+09:00  INFO 29744 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2024-12-06T18:23:45.013+09:00  INFO 29744 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T18:23:45.021+09:00  INFO 29744 --- [Todoprojcet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T18:23:45.021+09:00  INFO 29744 --- [Todoprojcet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-06T18:23:45.058+09:00  INFO 29744 --- [Todoprojcet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T18:23:45.059+09:00  INFO 29744 --- [Todoprojcet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 659 ms
+2024-12-06T18:23:45.324+09:00  INFO 29744 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T18:23:45.466+09:00  INFO 29744 --- [Todoprojcet] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73e4387
+2024-12-06T18:23:45.467+09:00  INFO 29744 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T18:23:45.562+09:00  INFO 29744 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T18:23:45.565+09:00  INFO 29744 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Started TodoprojcetApplication in 1.444 seconds (process running for 1.746)
+2024-12-06T18:23:53.034+09:00  INFO 29744 --- [Todoprojcet] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-06T18:23:53.035+09:00  INFO 29744 --- [Todoprojcet] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-06T18:23:53.036+09:00  INFO 29744 --- [Todoprojcet] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-06T18:26:00.319+09:00  INFO 29744 --- [Todoprojcet] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-06T18:26:00.412+09:00  INFO 29744 --- [Todoprojcet] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-06T18:26:00.414+09:00  INFO 29744 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-06T18:26:00.422+09:00  INFO 29744 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T18:45:20.689+09:00  INFO 30520 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Starting TodoprojcetApplication using Java 17.0.13 with PID 30520 (C:\Users\flashback\Desktop\스파르타\Todoprojcet\build\classes\java\main started by flashback in C:\Users\flashback\Desktop\스파르타\Todoprojcet)
+2024-12-06T18:45:20.690+09:00 DEBUG 30520 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-06T18:45:20.691+09:00  INFO 30520 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-06T18:45:21.051+09:00  INFO 30520 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-06T18:45:21.063+09:00  INFO 30520 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2024-12-06T18:45:21.351+09:00  INFO 30520 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T18:45:21.365+09:00  INFO 30520 --- [Todoprojcet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T18:45:21.365+09:00  INFO 30520 --- [Todoprojcet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-06T18:45:21.400+09:00  INFO 30520 --- [Todoprojcet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T18:45:21.400+09:00  INFO 30520 --- [Todoprojcet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 683 ms
+2024-12-06T18:45:21.673+09:00  INFO 30520 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T18:45:21.822+09:00  INFO 30520 --- [Todoprojcet] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4def7d36
+2024-12-06T18:45:21.824+09:00  INFO 30520 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T18:45:21.924+09:00  INFO 30520 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T18:45:21.929+09:00  INFO 30520 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Started TodoprojcetApplication in 1.496 seconds (process running for 1.8)
+2024-12-06T18:45:25.498+09:00  INFO 30520 --- [Todoprojcet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-06T18:45:25.498+09:00  INFO 30520 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-06T18:45:25.499+09:00  INFO 30520 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-06T19:01:56.738+09:00  INFO 30520 --- [Todoprojcet] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-06T19:01:56.828+09:00  INFO 30520 --- [Todoprojcet] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-06T19:01:56.830+09:00  INFO 30520 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-06T19:01:56.835+09:00  INFO 30520 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T19:01:58.276+09:00  INFO 30716 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Starting TodoprojcetApplication using Java 17.0.13 with PID 30716 (C:\Users\flashback\Desktop\스파르타\Todoprojcet\build\classes\java\main started by flashback in C:\Users\flashback\Desktop\스파르타\Todoprojcet)
+2024-12-06T19:01:58.277+09:00 DEBUG 30716 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-06T19:01:58.278+09:00  INFO 30716 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-06T19:01:58.688+09:00  INFO 30716 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-06T19:01:58.706+09:00  INFO 30716 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2024-12-06T19:01:58.993+09:00  INFO 30716 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T19:01:59.003+09:00  INFO 30716 --- [Todoprojcet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T19:01:59.003+09:00  INFO 30716 --- [Todoprojcet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-06T19:01:59.045+09:00  INFO 30716 --- [Todoprojcet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T19:01:59.045+09:00  INFO 30716 --- [Todoprojcet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 740 ms
+2024-12-06T19:01:59.334+09:00  INFO 30716 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T19:01:59.493+09:00  INFO 30716 --- [Todoprojcet] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b4a4e40
+2024-12-06T19:01:59.495+09:00  INFO 30716 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T19:01:59.594+09:00  INFO 30716 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T19:01:59.599+09:00  INFO 30716 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Started TodoprojcetApplication in 1.629 seconds (process running for 1.973)
+2024-12-06T19:02:03.634+09:00  INFO 30716 --- [Todoprojcet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-06T19:02:03.634+09:00  INFO 30716 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-06T19:02:03.636+09:00  INFO 30716 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-06T19:14:14.971+09:00  INFO 30716 --- [Todoprojcet] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-06T19:14:15.059+09:00  INFO 30716 --- [Todoprojcet] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-06T19:14:15.060+09:00  INFO 30716 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-06T19:14:15.065+09:00  INFO 30716 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T19:14:17.128+09:00  INFO 8352 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Starting TodoprojcetApplication using Java 17.0.13 with PID 8352 (C:\Users\flashback\Desktop\스파르타\Todoprojcet\build\classes\java\main started by flashback in C:\Users\flashback\Desktop\스파르타\Todoprojcet)
+2024-12-06T19:14:17.129+09:00 DEBUG 8352 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-06T19:14:17.130+09:00  INFO 8352 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-06T19:14:17.491+09:00  INFO 8352 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-06T19:14:17.503+09:00  INFO 8352 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2024-12-06T19:14:17.785+09:00  INFO 8352 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T19:14:17.792+09:00  INFO 8352 --- [Todoprojcet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T19:14:17.793+09:00  INFO 8352 --- [Todoprojcet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-06T19:14:17.827+09:00  INFO 8352 --- [Todoprojcet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T19:14:17.827+09:00  INFO 8352 --- [Todoprojcet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 673 ms
+2024-12-06T19:14:18.111+09:00  INFO 8352 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T19:14:18.272+09:00  INFO 8352 --- [Todoprojcet] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f664bee
+2024-12-06T19:14:18.273+09:00  INFO 8352 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T19:14:18.383+09:00  INFO 8352 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T19:14:18.389+09:00  INFO 8352 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Started TodoprojcetApplication in 1.529 seconds (process running for 1.843)
+2024-12-06T19:14:23.342+09:00  INFO 8352 --- [Todoprojcet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-06T19:14:23.342+09:00  INFO 8352 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-06T19:14:23.343+09:00  INFO 8352 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-06T19:23:10.874+09:00  INFO 8352 --- [Todoprojcet] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-06T19:23:10.964+09:00  INFO 8352 --- [Todoprojcet] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-06T19:23:10.966+09:00  INFO 8352 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-06T19:23:10.974+09:00  INFO 8352 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T19:23:12.860+09:00  INFO 28736 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Starting TodoprojcetApplication using Java 17.0.13 with PID 28736 (C:\Users\flashback\Desktop\스파르타\Todoprojcet\build\classes\java\main started by flashback in C:\Users\flashback\Desktop\스파르타\Todoprojcet)
+2024-12-06T19:23:12.863+09:00 DEBUG 28736 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-06T19:23:12.863+09:00  INFO 28736 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-06T19:23:13.224+09:00  INFO 28736 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-06T19:23:13.236+09:00  INFO 28736 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2024-12-06T19:23:13.532+09:00  INFO 28736 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T19:23:13.542+09:00  INFO 28736 --- [Todoprojcet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T19:23:13.542+09:00  INFO 28736 --- [Todoprojcet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-06T19:23:13.575+09:00  INFO 28736 --- [Todoprojcet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T19:23:13.575+09:00  INFO 28736 --- [Todoprojcet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 689 ms
+2024-12-06T19:23:13.845+09:00  INFO 28736 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T19:23:14.000+09:00  INFO 28736 --- [Todoprojcet] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d87d449
+2024-12-06T19:23:14.001+09:00  INFO 28736 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T19:23:14.102+09:00  INFO 28736 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T19:23:14.107+09:00  INFO 28736 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Started TodoprojcetApplication in 1.53 seconds (process running for 1.85)
+2024-12-06T19:23:19.973+09:00  INFO 28736 --- [Todoprojcet] [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-06T19:23:19.973+09:00  INFO 28736 --- [Todoprojcet] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-06T19:23:19.974+09:00  INFO 28736 --- [Todoprojcet] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-06T19:23:20.082+09:00 ERROR 28736 --- [Todoprojcet] [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "com.example.todoprojcet.entity.Todo.getId()" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "com.example.todoprojcet.entity.Todo.getId()" is null
+	at com.example.todoprojcet.repository.JdbcTemplateRepository.saveTodo(JdbcTemplateRepository.java:42) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.0.jar:6.2.0]
+	at com.example.todoprojcet.repository.JdbcTemplateRepository$$SpringCGLIB$$0.saveTodo(<generated>) ~[main/:na]
+	at com.example.todoprojcet.service.TodoServiceImpl.saveTodo(TodoServiceImpl.java:27) ~[main/:na]
+	at com.example.todoprojcet.controller.TodoController.createTodo(TodoController.java:29) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-12-06T19:24:45.057+09:00  INFO 28736 --- [Todoprojcet] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-06T19:24:45.153+09:00  INFO 28736 --- [Todoprojcet] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-06T19:24:45.156+09:00  INFO 28736 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-06T19:24:45.163+09:00  INFO 28736 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T19:24:47.049+09:00  INFO 20984 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Starting TodoprojcetApplication using Java 17.0.13 with PID 20984 (C:\Users\flashback\Desktop\스파르타\Todoprojcet\build\classes\java\main started by flashback in C:\Users\flashback\Desktop\스파르타\Todoprojcet)
+2024-12-06T19:24:47.050+09:00 DEBUG 20984 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-06T19:24:47.051+09:00  INFO 20984 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-06T19:24:47.445+09:00  INFO 20984 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-06T19:24:47.457+09:00  INFO 20984 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2024-12-06T19:24:47.747+09:00  INFO 20984 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T19:24:47.756+09:00  INFO 20984 --- [Todoprojcet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T19:24:47.757+09:00  INFO 20984 --- [Todoprojcet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-06T19:24:47.792+09:00  INFO 20984 --- [Todoprojcet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T19:24:47.793+09:00  INFO 20984 --- [Todoprojcet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 717 ms
+2024-12-06T19:24:48.056+09:00  INFO 20984 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T19:24:48.209+09:00  INFO 20984 --- [Todoprojcet] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fd74223
+2024-12-06T19:24:48.211+09:00  INFO 20984 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T19:24:48.318+09:00  INFO 20984 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T19:24:48.323+09:00  INFO 20984 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Started TodoprojcetApplication in 1.548 seconds (process running for 1.884)
+2024-12-06T19:24:57.336+09:00  INFO 20984 --- [Todoprojcet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-06T19:24:57.337+09:00  INFO 20984 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-06T19:24:57.337+09:00  INFO 20984 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-06T19:25:30.057+09:00  INFO 20984 --- [Todoprojcet] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-06T19:25:30.156+09:00  INFO 20984 --- [Todoprojcet] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-06T19:25:30.158+09:00  INFO 20984 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-06T19:25:30.164+09:00  INFO 20984 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T19:25:32.023+09:00  INFO 4968 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Starting TodoprojcetApplication using Java 17.0.13 with PID 4968 (C:\Users\flashback\Desktop\스파르타\Todoprojcet\build\classes\java\main started by flashback in C:\Users\flashback\Desktop\스파르타\Todoprojcet)
+2024-12-06T19:25:32.024+09:00 DEBUG 4968 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-06T19:25:32.024+09:00  INFO 4968 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-06T19:25:32.358+09:00  INFO 4968 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-06T19:25:32.371+09:00  INFO 4968 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2024-12-06T19:25:32.663+09:00  INFO 4968 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T19:25:32.672+09:00  INFO 4968 --- [Todoprojcet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T19:25:32.673+09:00  INFO 4968 --- [Todoprojcet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-06T19:25:32.711+09:00  INFO 4968 --- [Todoprojcet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T19:25:32.711+09:00  INFO 4968 --- [Todoprojcet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 663 ms
+2024-12-06T19:25:32.986+09:00  INFO 4968 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T19:25:33.140+09:00  INFO 4968 --- [Todoprojcet] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b8853
+2024-12-06T19:25:33.142+09:00  INFO 4968 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T19:25:33.251+09:00  INFO 4968 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T19:25:33.258+09:00  INFO 4968 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Started TodoprojcetApplication in 1.534 seconds (process running for 1.847)
+2024-12-06T19:25:35.346+09:00  INFO 4968 --- [Todoprojcet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-06T19:25:35.346+09:00  INFO 4968 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-06T19:25:35.347+09:00  INFO 4968 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-06T19:29:05.059+09:00  INFO 4968 --- [Todoprojcet] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-06T19:29:05.151+09:00  INFO 4968 --- [Todoprojcet] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-06T19:29:05.153+09:00  INFO 4968 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-06T19:29:05.158+09:00  INFO 4968 --- [Todoprojcet] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T19:29:07.044+09:00  INFO 30180 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Starting TodoprojcetApplication using Java 17.0.13 with PID 30180 (C:\Users\flashback\Desktop\스파르타\Todoprojcet\build\classes\java\main started by flashback in C:\Users\flashback\Desktop\스파르타\Todoprojcet)
+2024-12-06T19:29:07.045+09:00 DEBUG 30180 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-06T19:29:07.046+09:00  INFO 30180 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-06T19:29:07.429+09:00  INFO 30180 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-12-06T19:29:07.443+09:00  INFO 30180 --- [Todoprojcet] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2024-12-06T19:29:07.742+09:00  INFO 30180 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T19:29:07.752+09:00  INFO 30180 --- [Todoprojcet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T19:29:07.752+09:00  INFO 30180 --- [Todoprojcet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-06T19:29:07.788+09:00  INFO 30180 --- [Todoprojcet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T19:29:07.788+09:00  INFO 30180 --- [Todoprojcet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 718 ms
+2024-12-06T19:29:08.081+09:00  INFO 30180 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T19:29:08.247+09:00  INFO 30180 --- [Todoprojcet] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43c7fe8a
+2024-12-06T19:29:08.248+09:00  INFO 30180 --- [Todoprojcet] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T19:29:08.344+09:00  INFO 30180 --- [Todoprojcet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T19:29:08.348+09:00  INFO 30180 --- [Todoprojcet] [main] c.e.todoprojcet.TodoprojcetApplication   : Started TodoprojcetApplication in 1.579 seconds (process running for 1.888)
+2024-12-06T19:29:12.567+09:00  INFO 30180 --- [Todoprojcet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-06T19:29:12.567+09:00  INFO 30180 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-06T19:29:12.568+09:00  INFO 30180 --- [Todoprojcet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

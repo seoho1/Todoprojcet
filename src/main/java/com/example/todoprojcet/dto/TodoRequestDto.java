@@ -9,6 +9,6 @@ public class TodoRequestDto {
 
     private String todo;
     private String author;
-    private int password;
+    private String password;
 
 }
