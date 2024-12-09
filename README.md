@@ -18,3 +18,8 @@
 
 
 ## 2. ERD
+![image](https://github.com/user-attachments/assets/3dfcaa3f-21e0-4dde-a35a-5e0ebcba3c53)
+
+
+## 3. Query 목록
+![image](https://github.com/user-attachments/assets/3fd960aa-69cf-46b2-bae2-a6bdeddea04c)
