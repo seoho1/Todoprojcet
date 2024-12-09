@@ -13,7 +13,11 @@ public interface TodoService {
 
     TodoResponseDto findTodoById(Long id);
 
-    TodoResponseDto updateTodo(Long id, String todo);
+    List<TodoResponseDto>  findTodoByAuthor(String author);
+
+    TodoResponseDto updateTodo(Long id, String todo, String password);
 
     void deleteTodo(Long id);
+
+    List<TodoResponseDto> findTodoUpdatedDate();
 }

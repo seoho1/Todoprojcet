@@ -26,6 +26,9 @@ public class TodoResponseDto {
         this.id = todo.getId();
         this.todo = todo.getTodo();
         this.author =todo.getAuthor();
+        this.created_at = todo.getCreated_at();
+        this.updated_at = todo.getUpdated_at();
+
 
 
     }

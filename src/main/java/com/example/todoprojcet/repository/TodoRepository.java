@@ -4,6 +4,7 @@ import com.example.todoprojcet.dto.TodoResponseDto;
 import com.example.todoprojcet.entity.Todo;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface TodoRepository {
 
@@ -11,8 +12,15 @@ public interface TodoRepository {
 
     List<TodoResponseDto> findAllTodos();
 
-    Todo findTodoById(Long id);
+    Optional<Todo> findTodoById(Long id);
 
-    void deleteTodo(Long id);
+    int deleteTodo(Long id, String password);
 
+    Todo findTodoByIdOrElseThrow(Long id);
+
+    int updateTodo(Long id, String title, String password);
+
+    List<TodoResponseDto> findTodoByAuthor(String author);
+
+    List<TodoResponseDto> findTodoByUpdatedDate();
 }

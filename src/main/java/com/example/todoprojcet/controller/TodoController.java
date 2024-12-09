@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
@@ -40,13 +41,23 @@ public class TodoController {
         return new ResponseEntity<>(todoService.findTodoById(id),HttpStatus.OK);
     }
 
+    @GetMapping("/author/{author}")
+    public List<TodoResponseDto> findByAuthor (@PathVariable String author){
+        return todoService.findTodoByAuthor(author);
+    }
+
+    @GetMapping("/date")
+    public List<TodoResponseDto> findByUpdatedDate(){
+        return todoService.findTodoUpdatedDate();
+    }
+
     @PutMapping("/{id}")
     public ResponseEntity<TodoResponseDto> updateTodo(
             @PathVariable Long id,
             @RequestBody TodoRequestDto dto
             )
     {
-        return new ResponseEntity<>(todoService.updateTodo(id, dto.getTodo()),HttpStatus.OK);
+        return new ResponseEntity<>(todoService.updateTodo(id, dto.getTodo(), dto.getPassword()),HttpStatus.OK);
     }
 
     @DeleteMapping("/{id}")
